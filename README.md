@@ -10,7 +10,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="https://images.alamy.com/stock-photo-a-cartoon-illustration-of-the-ship-titanic-175103998.jpg" alt="Titanic Ship" width="160" height="80">
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sttammanylibrary.org%2Fblogs%2Fpost%2Fremembering-the-titanic-2%2F&psig=AOvVaw11M5rIt_OjcT9RUuPEBch5&ust=1749585986780000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjP9-mR5Y0DFQAAAAAdAAAAABAE" alt="Titanic Ship" width="160" height="80">
 
 
   </a>
@@ -20,7 +20,7 @@
   <p align="center">
     A prediction of a passenger's survival in the Titanic based on various features such as age, gender, class, and more. 
     <br />
-    <a href="https://github.com/Ruban2205/titanic-classification/blob/main/notebook/titanic_classifier_main.ipynb"><strong>Explore the project 
+    <a href="https://github.com/HendRamadan1/Titanic-project-/blob/main/titanic/titanic.ipynb"><strong>Explore the project 
 <p align="center"> Welcome to the Titanic Classification project repository! This project aims to predict whether a passenger on the Titanic survived or not based on various features such as age, gender, class, and more. It serves as a classic introductory machine learning project for those interested in data science and predictive modeling. </p>
 
 <!-- TABLE OF CONTENTS -->
