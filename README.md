@@ -3,114 +3,98 @@
 
 # 🚢 Titanic Classification 
 
-
-
-
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sttammanylibrary.org%2Fblogs%2Fpost%2Fremembering-the-titanic-2%2F&psig=AOvVaw11M5rIt_OjcT9RUuPEBch5&ust=1749585986780000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjP9-mR5Y0DFQAAAAAdAAAAABAE" alt="Titanic Ship" width="160" height="80">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/RMS_Titanic_3.jpg/640px-RMS_Titanic_3.jpg" alt="Titanic Ship" width="160" height="80">
+</div>
 
+### Titanic Survival Prediction | Titanic Classification
 
-  </a>
+A prediction of a passenger's survival in the Titanic based on various features such as age, gender, class, and more. 
 
-  <h3 align="center">Titanic Survival Prediction | Titanic Classification</h3>
+[Explore the notebook here](https://github.com/HendRamadan1/Titanic-project-/blob/main/titanic/titanic.ipynb)
 
-  <p align="center">
-    A prediction of a passenger's survival in the Titanic based on various features such as age, gender, class, and more. 
-    <br />
-    <a href="https://github.com/HendRamadan1/Titanic-project-/blob/main/titanic/titanic.ipynb"><strong>Explore the project 
-<p align="center"> Welcome to the Titanic Classification project repository! This project aims to predict whether a passenger on the Titanic survived or not based on various features such as age, gender, class, and more. It serves as a classic introductory machine learning project for those interested in data science and predictive modeling. </p>
+Welcome to the Titanic Classification project repository! This project aims to predict whether a passenger on the Titanic survived or not based on various features. It serves as a classic introductory machine learning project for those interested in data science and predictive modeling. 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project-">About The Project</a>
-      <ul>
-        <li><a href="#project-workflow-">Project Workflow</a></li>
-        <li><a href="#built-with-%EF%B8%8F">Built With</a></li>
-    
-  </ol>
-</details>
+---
 
-<!-- About the project-->
+## 📋 Table of Contents
+
+- [About The Project](#about-the-project-)
+- [Project Workflow](#project-workflow-)
+- [Built With](#built-with-️)
+- [Contact](#contact-)
+
+---
+
 ## About the Project 💻
-
 
 The sinking of the Titanic is one of the most infamous shipwrecks in history. On April 15, 1912, the Titanic sank after hitting an iceberg, resulting in the deaths of over 1,500 passengers and crew. This project attempts to predict whether a given passenger survived or not using machine learning algorithms. 
 
-Key components of this project include: 
+**Key components of this project include:**
 
 - Data preprocessing and cleaning.
 - Exploratory Data Analysis (EDA) to gain insights into the dataset.
 - Feature engineering to create meaningful features.
 - Model selection and training.
-- Model evaluation and performance metrics. 
+- Model evaluation and performance metrics.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
 
-<!--Built with Section--> 
 ## Project Workflow 📚
 
 The project follows a structured workflow:
 
-1. **Data Collection and Overview:** In this initial step, I gather the Titanic dataset, which contains information about passengers such as their age, gender, class, and whether they survived or not. We start by loading and inspecting the dataset to get a high-level understanding of its structure and content.
+1. **Data Collection and Overview:** Load the Titanic dataset and inspect its structure and content.
 
-2. **Data Preprocessing and Cleaning:** Data preprocessing is crucial for preparing the dataset for modeling. This step involves handling missing values, dealing with outliers, and converting categorical variables into numerical format. Data cleaning ensures that the dataset is ready for analysis and modeling. 
+2. **Data Preprocessing and Cleaning:** Handle missing values, outliers, and encode categorical variables.
 
-3. **Exploratory Data Analysis (EDA):** EDA is an essential part of any data analysis project. It involves visualizing and understanding the dataset's characteristics, exploring relationships between variables, and identifying patterns or trends. EDA provides valuable insights that guide feature engineering and model selection.
+3. **Exploratory Data Analysis (EDA):** Visualize and understand relationships between variables.
 
-4. **Feature Engineering:** Feature engineering focuses on creating new features or modifying existing ones to improve the predictive power of the model. In this project, we generate meaningful features from the dataset, which can include creating age groups, extracting titles from names, and encoding categorical variables.
+4. **Feature Engineering:** Create new features like age groups, extracted titles, etc.
 
-5. **Model Selection and Training:** With the preprocessed dataset and engineered features, we proceed to select machine learning models for classification. We split the data into training and testing sets, train various models (e.g., logistic regression, decision trees, random forests), and evaluate their performance using metrics like accuracy, precision, recall, and F1-score.
+5. **Model Selection and Training:** Train different models such as Logistic Regression, Decision Trees, and Random Forests.
 
-6. **Model Evaluation and Performance Metrics:** This step involves a detailed evaluation of the selected models. We assess their performance on the test data and compare them using various evaluation metrics. Additionally, we may perform hyperparameter tuning to optimize the models.
+6. **Model Evaluation and Performance Metrics:** Evaluate accuracy, precision, recall, F1-score, and perform hyperparameter tuning.
 
-7. **Conclusion and Results:** In the final step, we summarize the results of the classification models. We may provide insights into which features were most important for prediction and discuss the strengths and weaknesses of the chosen models. The conclusion provides an overall assessment of the project's success and any future directions for improvement.
+7. **Conclusion and Results:** Summarize findings and identify impactful features and best-performing models.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 ## Built With 🖥️
 
-[![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)](https://github.com/Ruban2205)
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)](https://github.com/Ruban2205)
+[![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)](https://www.python.org)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)](https://jupyter.org)
 
-[![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)](https://github.com/Ruban2205)
-[![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)](https://github.com/Ruban2205)
-[![SciPy](https://img.shields.io/badge/SciPy-654FF0?style=for-the-badge&logo=SciPy&logoColor=white)](https://github.com/Ruban2205)
-[![Scikit_Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://github.com/Ruban2205)
+[![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
+[![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org)
+[![SciPy](https://img.shields.io/badge/SciPy-654FF0?style=for-the-badge&logo=SciPy&logoColor=white)](https://scipy.org)
+[![Scikit_Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
 
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://github.com/Ruban2205)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!--Getting Started Section--> 
+---
 
-<!--Contact-->
 ## Contact ☎️
 
-For any questions or inquiries, please feel free to approach me through the following channels: 
-
-
-
+For any questions or inquiries, please feel free to reach out through the following channels:
 
 [![Mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hendtalba@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hend-ramadan-72a9712a5)
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/hannod)
 
-
 Feel free to report any issues or suggest improvements by creating an issue in the GitHub repository.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
 
-### Star ⭐ Some Of My Repositories for Future use 😉
-
+### ⭐ Star Some Of My Repositories for Future use 😉
 
 **Thank You!!**
-
-<hr/>
